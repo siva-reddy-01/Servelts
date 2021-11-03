@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Skill-4</title>
+</head>
+<body>
+
+
+<h1 align=center>Enjoy the show</h1>
+
+<br>
+
+<a href="addtheatres.html">Add Theatres</a>
+<a href="addtmanager"> ADD Manager</a>
+<a href="addmovie.html">Add Movie</a>
+<a href="viewcustomers">view Customers</a>
+<a href="login2.html">Log Out</a>
+
+<br><br>
+
+<h2 align=center>Add Movie</h2>
+<form method="POST" action="./AddMovie">
+
+
+<table align=center width=400 height=300>
+<tr>
+<td>Therater Name*</td>
+<td><input type="text" name="name" placeholder="Enter Movie Name" required></td>
+</tr> 
+</tr>
+<tr>
+<td> 
+<b>Language</b> &nbsp;
+<select name="language" required multiple>
+<option value="TELUGU">Telugu</option>
+<option value="ENGLISH">Engilsh</option>
+<option value="HINDI">Hindi</option>
+
+
+</select>
+<tr>
+<td>Enter genre</td>
+<td><input type="text" name="genre"   placeholder="Enter Genre" required></td>
+</tr>
+<tr>
+<td>Enter Director Name</td>
+<td><input type="text" name="director"  placeholder="Enter Director Name" required></td>
+</tr>
+
+<tr>
+<td>Enter Producer Name</td>
+<td><input type="text" name="producer"  placeholder="Enter Producer Name" required></td>
+</tr>
+<tr>
+<td>Enter Movie Cast</td>
+<td><input type="text" name="cast"  placeholder="Enter Cast" required></td>
+</tr> 
+ 
+<tr>
+<td>Enter Relese Date</td>
+<td><input type="date" name="release_date" placeholder="Enter Relese Dat" required></td>
+</tr>
+ 
+ <tr>
+<td>Enter Censor Rated</td>
+<td><input type="text" name="censor_report"  placeholder="Enter censor Rating" required></td>
+</tr> 
+<tr>
+<tr><td></td><td></tr>
+<tr><td></td><td></tr>
+<tr align=center>
+<td><input type=submit value="Add Movie" ></td>
+</tr>
+</table>
+</form>
+
+</body>
+</html>
